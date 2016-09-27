@@ -9,9 +9,9 @@
   %body
     %h1.title Rotten Potatoes!
     <%= button_to "New", new_user_path %>
-    # => "<form method="post" action="/users/new" class="button_to">
-    #      <input value="New" type="submit" />
-    #    </form>"
+    =>  <form method="post" action="/users/new" class="button_to">
+        <input value="New" type="submit" />
+        </form>"
     #main
       - if flash[:notice]
         #notice.message= flash[:notice]
